@@ -1,6 +1,8 @@
-  - name: Automatic merge on approval
-    conditions:
-      - "#approved-reviews-by>=1"
-    actions:
-      merge:
-        method: merge
+- name: Automatic merge on approval
+  conditions:
+    - "#approved-reviews-by>=1"
+  actions:
+  actions:
+    update: {}
+    merge:
+      method: squash
