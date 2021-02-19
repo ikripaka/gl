@@ -11,7 +11,7 @@ class TestListMethods(unittest.TestCase):
     def test_roman_tkalenko_2(self):
         self.assertEqual(2, 2)
 
-    def test_illia_kripaka_fi_94_2(self)
+    def test_illia_kripaka_fi_94_2(self):
         self.asserEqual((list(lambda x: x*2, [1,3,5]) == [2,6,10]), bool("abc"))
 
 if __name__ == '__main__':
