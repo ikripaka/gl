@@ -12,7 +12,7 @@ class TestListMethods(unittest.TestCase):
         self.assertEqual(2, 2)
 
     def test_illia_kripaka_fi_94_2(self):
-        self.asserEqual((list(lambda x: x*2, [1,3,5]) == [2,6,10]), bool("abc"))
+        self.asserEqual(2*[1,3,5], [1,3,5,1,3,5])
 
 if __name__ == '__main__':
     unittest.main()
